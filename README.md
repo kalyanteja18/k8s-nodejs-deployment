@@ -25,6 +25,40 @@ The app is accessible publicly through ngrok, showcasing end-to-end container or
 |   │  Service (NodePort)│
 |   └──────────────────┘ |
 |          │             |
+
+
+
+Steps to Deploy
+
+Create Kind cluster
+
+kind create cluster --name devops-assignment
+
+
+Build Docker image
+
+docker build -t nodejs-sample .
+
+
+Apply Kubernetes manifests
+
+kubectl apply -f k8s-deployment.yaml
+kubectl apply -f k8s-service.yaml
+
+
+Expose locally
+
+kubectl port-forward svc/nodejs-svc 8080:80
+
+
+Make public using ngrok
+
+ngrok http 8080
+
+
+Access your app
+
+https://mikel-billety-martin.ngrok-free.dev
 |       ngrok Tunnel     |
 |          │             |
 |  🌍 Public Internet     |
