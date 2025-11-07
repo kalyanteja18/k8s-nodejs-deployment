@@ -1,4 +1,12 @@
-# Kubernetes Deployment of a Simple Node.js Web App
+[![Docker](https://img.shields.io/badge/Docker-✓-blue.svg)](https://www.docker.com)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-✓-blue.svg)](https://kubernetes.io)
+[![Kind](https://img.shields.io/badge/Kind-local--k8s-orange.svg)](https://kind.sigs.k8s.io)
+[![ngrok](https://img.shields.io/badge/ngrok-✓-purple.svg)](https://ngrok.com)
+[![DevOps](https://img.shields.io/badge/DevOps-Practice-green.svg)](https://github.com/kalyanteja18)
+
+**🌐 Live Demo:** [https://mikel-billety-martin.ngrok-free.dev](https://mikel-billety-martin.ngrok-free.dev)
+---
+
 # 🚀 Kubernetes Deployment of a Node.js Web App
 
 This project demonstrates a **complete DevOps workflow**: containerizing a Node.js application with Docker, deploying it on a local **Kubernetes cluster (Kind)**, and exposing it publicly using **ngrok**.
