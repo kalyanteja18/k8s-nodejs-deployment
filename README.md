@@ -64,3 +64,24 @@ https://mikel-billety-martin.ngrok-free.dev
 |  🌍 Public Internet     |
 +-------------------------+
 
+
+💡 Key Learnings
+
+Created a Kubernetes cluster using Kind
+
+Built and ran Docker containers locally
+
+Managed Pods, Deployments, and Services
+
+Exposed local cluster to the internet with ngrok
+
+Gained practical Kubernetes deployment experience
+
+👨‍💻 Author
+
+Gaddam Kalyan Teja
+📍 Kodad, Telangana
+💼 Aspiring DevOps Engineer
+🔗 GitHub Profile
+ | LinkedIn
+
